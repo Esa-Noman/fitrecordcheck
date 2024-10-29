@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "637671856690",
+    "project_id": "fitnessrecordprogramme",
+    "storage_bucket": "fitnessrecordprogramme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637671856690:android:3dc624ada5ab022ef77a2b",
+        "android_client_info": {
+          "package_name": "com.example.fitrecordcheck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfAgmpDfv3K7E91ilVz4ydap7LYLqtGXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
