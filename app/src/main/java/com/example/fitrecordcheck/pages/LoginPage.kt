@@ -44,7 +44,7 @@ fun LoginPage(modifier: Modifier = Modifier, navController: NavController, authV
             is AuthState.Error -> Toast.makeText(context, (authState.value as AuthState.Error).message, Toast.LENGTH_SHORT).show()
             else -> Unit
         }
-
+// Login Page
     }
 
     Column (
