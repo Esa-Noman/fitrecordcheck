@@ -43,17 +43,7 @@ val authState = authViewModel.authState.observeAsState()
         horizontalAlignment = Alignment.CenterHorizontally
     ){
         Text(text = "Home Page" , fontSize = 32.sp)
-        Spacer(modifier = Modifier.height(8.dp))
-        OutlinedTextField(
-            value = calories,
-            onValueChange = {
-                calories = it
-            },
-            label = {
-                Text(text = "Enter calories")
-            }
-        )
-        Spacer(modifier = Modifier.height(8.dp))
+       //Home Page
 
        TextButton(onClick = {
            authViewModel.signout()
